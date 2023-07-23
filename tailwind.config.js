@@ -40,6 +40,9 @@ module.exports = {
       lineHeight: {
         '62': '68px',
       },
+      opacity: {
+        '9': '0.9',
+      },
     },
   },
 };
