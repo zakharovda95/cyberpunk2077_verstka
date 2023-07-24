@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-100vh absolute z-0">
+  <div class="w-full h-100vh">
     <AnimatedBanner class="absolute z-1" :images="MAIN_BANNER_IMAGES_DATA" />
 
     <div class="max-w-max_page_width mx-auto pt-24 flex flex-col justify-between h-full">
