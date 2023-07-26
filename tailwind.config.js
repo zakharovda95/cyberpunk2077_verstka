@@ -14,12 +14,18 @@ module.exports = {
     extend: {
       maxWidth: {
         'max_page_width': '1200px',
+        '460': '460px',
         '900': '900px',
       },
       minWidth: {
         '300': '300px',
       },
+      backgroundColor: {
+        'transparent': 'transparent',
+      },
       spacing: {
+        '5': '5px',
+        '8': '8px',
         '12': '12px',
         '18': '18px',
         '24': '24px',
@@ -35,6 +41,7 @@ module.exports = {
         '100vh': '100vh',
       },
       fontSize: {
+        '14': '14px',
         '18': '18px',
         '24': '24px',
         '62': '62px',

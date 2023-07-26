@@ -1,24 +1,26 @@
 <template>
-  <div class="w-full h-100vh">
-    <AnimatedBanner class="absolute z-1" :images="MAIN_BANNER_IMAGES_DATA" />
+  <section>
+    <div class="w-full h-100vh w-full relative z-1">
+      <AnimatedBanner class="absolute z-2" :images="MAIN_BANNER_IMAGES_DATA" />
 
-    <div class="max-w-max_page_width mx-auto pt-24 flex flex-col justify-between h-full">
-      <div class="relative z-100 flex w-full justify-between">
-        <MainLogo />
-        <TheContacts :contacts="CONTACTS_DATA" />
-      </div>
+      <div class="max-w-max_page_width mx-auto pt-24 flex flex-col justify-between h-full">
+        <div class="relative z-100 flex w-full justify-between">
+          <MainLogo />
+          <TheContacts :contacts="CONTACTS_DATA" />
+        </div>
 
-      <div class="flex flex-col w-full items-end">
-        <ChipShapedDiv class="relative bg-yellow z-100 p-70">
-          <h1 class="font-archangelsk text-62 text-black leading-62 mx-auto block">
-            Доступно на <br />
-            всех платформах
-          </h1>
-          <UIButton class="mt-36" btn-style="black-lg">Узнать больше</UIButton>
-        </ChipShapedDiv>
+        <div class="flex flex-col w-full items-end">
+          <ChipShapedDiv class="relative bg-yellow z-100 p-70">
+            <h1 class="font-archangelsk text-62 text-black leading-62 mx-auto block">
+              Доступно на <br />
+              всех платформах
+            </h1>
+            <UIButton class="mt-36" btn-style="black-lg">Узнать больше</UIButton>
+          </ChipShapedDiv>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">
